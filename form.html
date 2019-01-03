@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+<form action="URL" method="post" name="forma">
+Выберите пиццу: <select name="menu" size="1">
+<option selected="selected" value="first">Маргарита</option>
+<option value="second">Деревенская</option>
+<option value="third">Веганская</option>
+<option value="fourth">Четыре сезона</option>
+</select>
+<p></p>
+Выберите основу:
+<br>  
+<input type="radio" name="osnova" value="толстая" checked="checked"/> толстый край
+ <input type="radio" name="osnova1" value="тонкая"> тонкий край
+ <p></p>
+ <input type="checkbox" checked name="pic" value="кусочек"> Разрезать пиццу
+ <p></p>
+ <label>Номер телефона для связи
+ <input type="tel" name="nom" value="+375(29)1111111"></label>
+ <p></p>
+ <label>Адрес доставки
+ <input type="text" name="adres">
+ </label>
+ <br>
+ <label><p></p>Дополнительные пожелания<br>
+ <textarea name="comment" rows="5" cols="50">Время доставки, код домофона и прочее
+ </textarea> 
+ </label>
+ <p></p>
+ <input type="submit" value="Заказать">
+</form>
+</body>
