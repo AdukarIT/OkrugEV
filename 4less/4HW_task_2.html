@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Otziv</title>
+  <meta charset="UTF-8">
+</head>
+ <body>
+  <form method="post" action="handler.php" name="form">
+   <h3>Форма отзыва на товар:</h3>
+   <table width="100%" cellspacing="0" cellpadding="4">
+    <tr> 
+      <td align="right" width="100">Имя</td>
+      <td><input type="text" name="nickname" maxlength="50" size="20"></td>
+    </tr>
+    <tr> 
+      <td align="right">E-mail</td>
+      <td><input type="text" name="email" maxlength="50" size="20"></td>
+    </tr>
+    <tr>
+      <td align="right" width="100">Оцените работу</td>
+      <td>
+        <label>
+            <input type="radio" name="star" checked>***** Звезд
+        </label><br>
+        <label>
+            <input type="radio" name="star">****
+        </label><br>
+        <label>
+            <input type="radio" name="star">***
+        </label><br>
+        <label>
+            <input type="radio" name="star">**
+        </label><br>
+        <label>
+            <input type="radio" name="star">*
+        </label><br>
+      </td>
+    <tr>
+      <td align="right" valign="top">Комментарий</td>
+      <td><textarea name="text" cols="35" rows="5"></textarea></td>
+    </tr>
+    <tr> 
+      <td></td>
+      <td><input type="submit" value="Добавить комментарий"></td>
+    </tr>
+   </table>
+   <p>
+      <input type="submit" value="Отправить">
+   </p>
+  </form>
+ </body>
+</html>
