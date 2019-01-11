@@ -22,3 +22,6 @@ https://jsfiddle.net/okrughelen/pd86hwvt/3/   --5 урок задание 2 cтр2<br>
 https://jsfiddle.net/okrughelen/pd86hwvt/5/   --5 урок задание 2 cтр3<br>
 https://jsfiddle.net/okrughelen/pd86hwvt/7/   --5 урок задание 2 cтр4<br>
 https://jsfiddle.net/okrughelen/pd86hwvt/10/  --5 урок задание 2 cтр5<br>
+
+https://jsfiddle.net/okrughelen/z9kdtrhu/74/  --6 урок задание<br>
+https://jsfiddle.net/okrughelen/z9kdtrhu/76/  --7 урок задание 1<br>
