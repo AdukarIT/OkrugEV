@@ -25,3 +25,4 @@ https://jsfiddle.net/okrughelen/pd86hwvt/10/  --5 урок задание 2 cтр5<br>
 
 https://jsfiddle.net/okrughelen/z9kdtrhu/74/  --6 урок задание<br>
 https://jsfiddle.net/okrughelen/z9kdtrhu/76/  --7 урок задание 1<br>
+https://jsfiddle.net/okrughelen/zqeu7948/5/   --7 урок задание 2<br>
