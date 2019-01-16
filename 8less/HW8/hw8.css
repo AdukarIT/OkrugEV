@@ -1,0 +1,21 @@
+/*.switch {
+    display: inline-block;
+	
+}
+
+.switch [type="checkbox"] {
+    display: none;
+}
+
+.switch span {
+    display: block;
+    padding: 10px;
+    border: 2px solid #e55;
+    color: #e55;
+}
+
+.switch :checked~span {
+    color: #fff;
+    background-color: #e55;
+}
+*/

@@ -1,0 +1,77 @@
+
+
+   .otot {
+    display: inline-block; 
+    position: relative; 
+   border-bottom: 1px dashed #333;
+   
+}
+   
+   .otot:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 0; top: 100%; 
+    z-index: 1; 
+    background: rgba(255,255,230,0.9); 
+    font-family: Arial, sans-serif; 
+    font-size: 11px; 
+    padding: 5px 10px; 
+    border: 0 20px 20px #333;
+    box-shadow: 5px 5px 5px #333; 
+   }
+
+   .ot {
+    display: inline-block; 
+    position: relative; 
+   border-bottom: 1px dashed #333;
+   font-color: red;
+}
+   
+   .ot:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 0; top: 100%; 
+    z-index: 1; 
+    background: rgba(255,255,230,0.9); 
+    font-family: Arial, sans-serif; 
+    font-size: 11px; 
+    padding: 5px 10px; 
+    border: 0;20px 20px #333;
+    box-shadow: 5px 5px 5px #333; 
+   }
+   .switch {
+    display: inline-block;
+}
+
+.switch [type="checkbox"] {
+    display: none;
+}
+
+.switch span {
+    display: block;
+    padding: 10px;
+    border: 2px solid #e55;
+    color: #e55;
+}
+
+.switch :checked~span {
+    color: #fff;
+    background-color: #e55;
+}
+  .oto {
+    display: inline-block; 
+    position: relative; 
+}
+   
+   .oto:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 0; top: 100%; 
+    z-index: 1; 
+    background: rgba(255,255,230,0.9); 
+    font-family: Arial, sans-serif; 
+    font-size: 11px; 
+    padding: 5px 10px; 
+    border: 0;20px 20px #333;
+    box-shadow: 5px 5px 5px #333;
+   }
