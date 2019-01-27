@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    background: #ccc;
+}
+
+/*
+.sky_suny, .suny, .sea, .dream {
+border: 2px solid #e58;
+} */
+
+
+.dream {
+width: 100%;
+margin: 0 auto;
+
+}
+.sky, .sea {
+background-position: left top;
+background-repeat: repeat-x;
+
+} 
+
+.sky {
+background-image: url(sky.png);
+position: relative;
+height: 70%;   
+}
+
+
+.sea {
+background-image: url(sea.png);
+height: 30%;
+}
+
+.suny {
+width: 30%;
+float: left;
+z-index: 1;
+position: absolute;
+left: 40%;
+
+}

@@ -1,0 +1,42 @@
+[class^="icon-"]:before, [class*=" icon-"]:before, 
+[class^="icon-"]:hover, [class*=" icon-"]:hover,
+[class^="icon-"]:focus, [class*=" icon-"]:focus, 
+[class^="icon-"]:focus:hover, [class*=" icon-"]:focus:hover {
+  font-family: "adukar";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.switch {
+    display: inline-block;
+}
+
+.switch [type="checkbox"] {
+    display: none;
+}
+
+.switch a {
+    display: block;
+    padding: 10px;
+    
+    color: #6E6E6E;
+    font-size: 400%;
+    text-decoration: none;
+}
+
+
+a:hover{
+	color: #0101DF;
+}
+
+a:focus {
+ color: #FF0000;
+ opacity: 1;
+}
+
+a:focus:hover {
+ color: #FF0000;
+ opacity: .3; 
+
+}
