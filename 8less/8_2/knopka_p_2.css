@@ -1,45 +1,4 @@
-
-
-   .otot {
-    display: inline-block; 
-    position: relative; 
-   border-bottom: 1px dashed #333;
-   
-}
-   
-   .otot:hover::after {
-    content: attr(data-title); 
-    position: absolute; 
-    left: 0; top: 100%; 
-    z-index: 1; 
-    background: rgba(255,255,230,0.9); 
-    font-family: Arial, sans-serif; 
-    font-size: 11px; 
-    padding: 5px 10px; 
-    border: 0 20px 20px #333;
-    box-shadow: 5px 5px 5px #333; 
-   }
-
-   .ot {
-    display: inline-block; 
-    position: relative; 
-   border-bottom: 1px dashed #333;
-   font-color: red;
-}
-   
-   .ot:hover::after {
-    content: attr(data-title); 
-    position: absolute; 
-    left: 0; top: 100%; 
-    z-index: 1; 
-    background: rgba(255,255,230,0.9); 
-    font-family: Arial, sans-serif; 
-    font-size: 11px; 
-    padding: 5px 10px; 
-    border: 0;20px 20px #333;
-    box-shadow: 5px 5px 5px #333; 
-   }
-   .switch {
+.switch {
     display: inline-block;
 }
 
@@ -58,20 +17,36 @@
     color: #fff;
     background-color: #e55;
 }
-  .oto {
+
+   .oto {
     display: inline-block; 
     position: relative; 
-}
-   
+    
+   }
    .oto:hover::after {
     content: attr(data-title); 
     position: absolute; 
-    left: 0; top: 100%; 
+    left: 0; top: 110%; 
     z-index: 1; 
-    background: rgba(255,255,230,0.9); 
     font-family: Arial, sans-serif; 
     font-size: 11px; 
     padding: 5px 10px; 
-    border: 0;20px 20px #333;
-    box-shadow: 5px 5px 5px #333;
+    background: #0040FF; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .oto1 {
+    display: inline-block; 
+    position: relative; 
+    border-bottom: 1px dashed #333;
+   }
+   .oto1:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 0; top: 110%;
+    z-index: 1; 
+    font-family: Arial, sans-serif; 
+    font-size: 11px; 
+    padding: 5px 10px; 
+    background: #fc0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
    }

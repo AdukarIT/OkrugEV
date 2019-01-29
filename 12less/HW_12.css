@@ -1,0 +1,179 @@
+[class^="icon-"]:before, [class*=" icon-"]:before, 
+[class^="icon-"]:focus, [class*=" icon-"]:focus {
+  font-family: "adukar";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.clearfix {
+  clear: both;
+  
+}
+
+
+.icon_celi_1, .header, .header_2, .nav, .telef_sety, .zapischys,
+ .icon_celi, .text, .s_sety, .logo, .qqq, .aaa, .zzz, .first_line {
+/*border: 2px solid #e58;*/
+color: white;
+} 
+
+
+html, body  {
+	margin: 0;
+  height: 100%;
+  font-family: Arial;
+
+}
+.header {
+	height: 100%;
+  
+}
+
+.header_2 {
+	margin: 0 auto;
+	background: rgba(112, 92, 102, 0.7);
+height: 100%;
+position: relative;
+
+}
+
+/*span {
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 150%
+ }
+*/
+
+.first_line {
+display: flex;
+overflow: hidden;
+max-width: 100%;: 
+margin: 10px auto 0;
+padding: 20px 20px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+/*.first_line :after {
+content: "";
+clear: both;
+}*/
+
+
+.logo {
+  /*position: absolute;*/
+  /*display: inline;*/
+
+  font-weight: bold;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-size: 25px; 
+}
+
+.nav {
+  /*width: 50px;*/
+  
+/*position: absolute;*/
+/*box-sizing: border-box;*/
+margin: 0;
+padding: 5px 5px;
+
+/*display: inline;*/
+}
+
+
+ul.topmenu {
+padding: 5px 5px;
+  list-style: none; 
+  /*margin: 0;*/ 
+  font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+/*#xxx {
+display: inline; 
+  padding: 0 30px;
+}*/
+
+  ul.topmenu li {
+
+  display: inline; 
+  padding: 0 25px;
+  
+  /*margin: 0;*/
+}
+
+ul.topmenu li > a {
+  text-decoration: none; 
+  color: #fff; 
+  transition: all 0.3s 0.01s;
+  
+}
+ul.topmenu li > a:hover {
+  color: #0B0B61;
+}
+
+.telef_sety {
+/*position: absolute;*/
+box-sizing: border-box;
+/*margin: 0;
+padding: 0;*/
+	
+}
+
+
+.text {
+  font-weight: bold;
+  margin: 5px 5px;
+  padding: 40px 5px;
+  font-size: 20px;
+	text-align: center;
+}
+
+.icon_celi {
+margin: 5px 5px;
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.icon_celi_1 {
+padding: 5px 5px;
+width: 220px;
+}
+
+.icon_celi_1 span {
+text-align: center;
+}
+
+.zapischys {
+text-align: center;
+}
+
+/*.aaa {
+width: 350px;
+height: 100px;
+background: #aaa; 
+
+}
+
+.qqq {
+width: 330px;
+height: 60px;
+background: #eee; 
+position: relative;
+display: flex;
+}
+
+.zzz {
+width: 50px;
+height: 50px;
+background: #e58; 
+margin: 5px 5px;
+
+/*position: absolute;*/
+}*/

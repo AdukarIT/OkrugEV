@@ -1,0 +1,55 @@
+
+.form_all {
+	width: 70%;
+	background: #aaa;
+	border: 2px solid #e55;
+	margin: 10px auto;
+	padding: 10px;
+
+}
+
+
+.vid {
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+.form {
+	width: 80%;
+	margin: auto;
+	background: #aaa;
+}
+
+#year  {
+width: 50%;
+height: auto;
+padding: 10px;
+background: #aaa;
+box-sizing: border-box;
+display: inline-block;
+text-align: right;
+float: left;
+
+}
+
+
+#year_r {
+background: #aaa;
+width: 50%;
+height: auto;
+padding: 10px;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+overflow: hidden;
+
+}
+
+
+.button {
+text-align: center;
+margin: 0 auto;
+padding: 40px 0;
+
+}

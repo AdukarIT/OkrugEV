@@ -1,21 +1,244 @@
-/*.switch {
-    display: inline-block;
-	
+html, body {
+    margin: 0;
+    background: #ccc;
 }
 
-.switch [type="checkbox"] {
-    display: none;
+.header, .nav, .nav_2, .main, .footer, .comment, .form, .form-all, #form_1, #year, #year_r, .commDA, #year_sab, #year_sabR, p {
+border: 2px solid #e58;
+} 
+
+.header {
+    background: #fff;
+    height: 120px;  
+}
+.header_2 {
+    background: #fff;
+    height: 100px;
+    
+}
+.nav {
+background: #B40404;
+height: 40px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
-.switch span {
-    display: block;
-    padding: 10px;
+.nav_2 {
+background: #B40404;
+font-weight: bold;
+text-align: center;
+font-family: Arial;
+font-color: #1C1C1C;
+height: 40px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+ /* margin-top: 0; /*убираем отступ сверху*/
+  background: #B40404; /*добавляем фон всему меню*/
+  height: 40px; /*задаем высоту*/
+
+
+}
+.topmenu {
+    margin: auto;
+}
+li >a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background: #B40404; /*добавляем фон к пункту меню*/
+  color: #fff; /*меняем цвет ссылок*/
+  padding: 0px 30px; /*добавляем отступ*/
+  font-family: Arial; /*меняем шрифт*/
+  line-height: 40px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #B40404; /*добавляем бордюр справа*/
+  transition: all 0.3s 0.01s;
+  /*-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  /*-o-transition: all 0.3s 0.01s ease;
+  /*-webkit-transition: all 0.3s 0.01s ease;*/
+}
+li > a:hover {
+  background: #D43737;/*добавляем эффект при наведении*/
+}
+li {
+  float: left; /*Размещаем список горизонтально для реализации меню*/
+  position: relative; /*задаем позицию для позиционирования*/
+  
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position: absolute;
+        top: 40px;
+        display: none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display: block; 
+        width: 100%;  /*Задаем ширину выпадающего меню*/      
+        }
+   li:hover > ul > li {
+       font-size: 12px;
+       text-align: left;
+       float: none;} /*Убираем горизонтальное позиционирование*/
+    
+/*форма*/
+.main {
+    min-height: 600px;
+
+ }
+
+.form_all {
+    width: 70%;
+    background: #aaa;
     border: 2px solid #e55;
-    color: #e55;
+    margin: 10px auto;
+    padding: 10px;
+
 }
 
-.switch :checked~span {
-    color: #fff;
-    background-color: #e55;
+
+.vid {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
 }
-*/
+
+.form {
+    width: 80%;
+    margin: auto;
+    background: #aaa;
+}
+
+#year  {
+width: 50%;
+height: auto;
+padding: 10px;
+background: #aaa;
+box-sizing: border-box;
+display: inline-block;
+text-align: right;
+float: left;
+
+}
+
+
+#year_r {
+background: #aaa;
+width: 50%;
+height: auto;
+padding: 10px;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+overflow: hidden;
+
+}
+/*Карта адреса*/
+details summary {
+  display: block;  /* у summary по умолчанию свойство display в значении list-item, потому поддерживается свойство list-style */
+  width: 10em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;  /* блок раскрывается при щелчке по кнопке, а не по всей строке */
+  border-bottom: 1px dotted;  /* подводка точками или тире часто используется для элементов, с которыми пользователю предлагается взаимодействовать, можно заменить на text-decoration */
+  outline-style: none;  /* удалить обводку при фокусе */
+  cursor: pointer;
+}
+details summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+  display: none;
+
+}
+
+
+
+#year_sab  {
+width: 40%;
+height: auto;
+padding: 5px;
+background: #aaa;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+float: left;
+
+}
+
+
+#year_sabR {
+background: #aaa;
+width: 40%;
+height: auto;
+padding: 5px;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+overflow: hidden;
+
+}
+
+.dopInf {
+margin: auto;
+padding: 5px;
+text-align: center;
+}
+
+
+
+/*кнопка заказа*/
+
+.oznakDA {
+text-align: center;
+margin: 0 auto;
+padding: 40px 0;
+
+}
+
+#link {
+  position: relative;
+}
+#linka {
+  pointer-events: none;
+}
+#link:hover:before {
+  display: block;
+  content: "Подтвердите своё согласие с условиями доставки";
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translate(-50%, calc(-100% - 10px));
+  border-radius: 3px;
+  padding: 10px;
+  background: #f7f7f7;
+  box-shadow: 0 0 2px;
+}
+#link:hover:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #f7f7f7 transparent transparent transparent;
+}
+#linkDa:checked ~ #linka {
+  pointer-events: auto;
+}
+#linkDa:checked ~ #link:after, #linkDa:checked ~ #link:before {
+  content: none;
+}
+
+/*реквизиты */
+.footer {
+    padding: 5px 0 20px 0;
+    background: #B40404;
+    height: 20%;
+    text-align: center;
+ }
