@@ -27,4 +27,11 @@ https://jsfiddle.net/okrughelen/z9kdtrhu/74/  --6 урок задание<br>
 https://jsfiddle.net/okrughelen/z9kdtrhu/76/  --7 урок задание 1<br>
 https://jsfiddle.net/okrughelen/zqeu7948/5/   --7 урок задание 2<br>
 
-https://jsfiddle.net/okrughelen/hbdetLzo/113/--8 урок задание 1-2<br>
+https://jsfiddle.net/okrughelen/hbdetLzo/113/ --8 урок задание 1-2<br>
+
+https://jsfiddle.net/okrughelen/wvpdrhnc/31/ --10 урок задание 10.1<br>
+https://jsfiddle.net/okrughelen/wvpdrhnc/33/ --10 урок задание 10.2<br>
+https://jsfiddle.net/okrughelen/wvpdrhnc/35/ --10 урок задание 10.3<br>
+https://jsfiddle.net/okrughelen/wvpdrhnc/37/ --10 урок задание 10.4<br>
+
+https://jsfiddle.net/okrughelen/wvpdrhnc/25/ --12 урок задание 12.1<br>
