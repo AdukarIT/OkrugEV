@@ -1,0 +1,47 @@
+h3, .knopka {
+  text-align: center;
+}
+
+.form_otz {
+display: flex;
+width: 40%;
+height: 300px;
+margin: 0 auto;
+flex-flow: wrap;
+}
+
+.name_1 {
+display: inline-block;
+float: left;
+width: 150px;
+height: 20px;
+text-align: right;
+padding-right: 20px;
+
+  }
+
+.pole_1 {
+display: inline-block;
+width: 300px;
+height: 20px;
+text-align: left;
+
+}
+
+.name_3 {
+display: inline-block;
+float: left;
+width: 150px;
+height: 120px;
+text-align: right;
+padding-right: 20px;
+
+}
+
+.pole_3 {
+display: inline-block;
+width: 300px;
+height: 120px;
+text-align: left;
+
+}

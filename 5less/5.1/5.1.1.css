@@ -1,0 +1,68 @@
+
+.form_all {
+	width: 50%;
+	background: #aaa;
+	/*border: 2px solid #e55;*/
+	margin: 10px auto;
+	padding: 10px;
+
+}
+
+
+.formV-R {
+	text-align: center;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+/*border: 1px solid red;*/
+}
+
+.form_v {
+	width: 90%;
+	margin: auto;
+	background: #aaa;
+	/*border: 1px solid red;*/
+}
+
+.form_r {
+	width: 90%;
+	margin: auto;
+	background: #aaa;
+	/*border: 1px solid red;*/
+}
+
+.button {
+	margin: 0 auto;
+}
+
+.left  {
+width: 50%;
+height: auto;
+padding: 10px;
+background: #aaa;
+box-sizing: border-box;
+display: inline-block;
+text-align: right;
+float: left;
+
+}
+
+
+.right {
+background: #aaa;
+width: 50%;
+height: auto;
+padding: 10px;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+/*overflow: hidden;
+*/
+}
+
+
+.button {
+text-align: center;
+margin: 0 auto;
+padding: 40px 0;
+
+}

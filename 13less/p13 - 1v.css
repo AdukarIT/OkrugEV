@@ -1,0 +1,63 @@
+.left, .left_2, .center, .right {
+background: #eee;
+border: 2px solid #aaa;
+box-sizing: border-box;
+text-align: center;
+/*padding: 10px;*/
+width: 20%;
+height: 20%;
+}
+
+@media (max-width: 500px) {
+  .left {
+    background-color: #000;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px)  {
+   .left, .left_2 {
+    display: inline-block;
+    width: 10%;
+	height: 20%;
+  }
+.center {
+width: 20%;
+height: 40%;
+}
+
+.right {
+	width: 20%;
+	height: 10%;
+}
+
+}
+
+@media (min-width: 800px) {
+.left {
+  display: inline-block;
+  width: 10%;
+	height: 20%;
+  }
+.left_2 {
+	display: inline-block;
+	width: 10%;
+	height: 20%;
+	clear: both;
+}
+
+.cen {
+display: block;
+}
+.center {
+width: 12%;
+height: 60%;
+ display: inline-block;
+}
+
+.right {
+width: 8%;
+height: 60%;
+display: inline-block;
+}
+
+}

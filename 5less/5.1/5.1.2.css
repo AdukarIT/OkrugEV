@@ -1,0 +1,115 @@
+
+.form_all {
+	width: 100%;
+	/*border: 2px solid #e55;*/
+	margin: 0 auto;
+	
+
+}
+
+
+.form-C {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	font-weight: bold;
+	background: #aaa;
+	
+}
+
+.form-C a {
+text-decoration: none;
+}
+
+.name-P, .name-pers, .date, .content, .comment, .name-comm-p, 
+ .comm-p, .name-comm-p, .comm-p, .post-1 {
+ 	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	padding: 5px 10px;
+ }
+
+.post-1, .post-2, {
+width: 100%;
+
+}
+
+.name-P {
+width: 100%;
+height: 30px;
+margin: 40px 0 0 0;
+display: inline-block;
+text-align: center;
+font-weight: bold;
+background: #FFBF00;
+}
+
+.name-pers {
+width: 30%;
+height: 30px;
+display: inline-block;
+font-weight: bold;
+
+}
+
+.date {
+width: 70%;
+height: 30px;
+display: inline-block;
+margin: 0;
+font-style: italic;
+text-align: right;
+}
+
+.content {
+width: 100%;
+height: 120px;
+padding: 10px 10px;
+display: inline-block;
+}
+
+.comment {
+width: 100%;
+height: 30px;
+margin: 10px 0 0 0;
+display: inline-block;
+text-align: right;
+font-weight: bold;
+padding-right: 10px;
+background: #DF7401;
+}
+
+.name-comm-p {
+width: 20%;
+height: 40px;
+display: inline-block;
+font-weight: bold;
+float: left;
+font-size: 12px;
+font-color: ##1C1C1C;
+border-bottom: 2px solid #A4A4A4;
+
+}
+
+.comm-p {
+width: 80%;
+height: 40px;
+display: inline-block;
+margin: 0;
+font-size: 12px;
+font-color: #1C1C1C;
+border-bottom: 2px solid #A4A4A4;
+}
+
+.pishi-comm {
+width: 50%;
+margin: 10px auto;
+text-align: center;
+box-sizing: border-box;
+padding-right: 5px;
+padding: 5px;
+}
+
+
+

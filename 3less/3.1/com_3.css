@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    
+}
+
+
+.header, .header_2, .menu, .menu_2, .content, 
+.footer {
+	/*border: 1px solid #298A08;*/
+
+} 
+
+
+
+.index {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.header {
+	background: #fff;
+	box-sizing: border-box;
+    width: 100%;
+    height: 120px; 
+
+}
+
+.header_2 {
+	box-sizing: border-box;
+	background: #fff;
+    width: 90%;
+    height: 100%;
+      
+}
+
+.header_2 img {
+	margin: 10px 0;
+
+}
+
+
+.menu {
+	background: #DF3A01;
+	box-sizing: border-box;
+	height: 24px;
+    width: 100%;
+    position: relative;
+
+    
+}
+.menu_2 {
+	box-sizing: border-box;
+	width: 80%;
+	height: 24px;
+	position: absolute;
+	
+
+	
+}
+
+.spisok {
+list-style: none;
+margin: 0;
+padding-left: 30px;
+height: 24px;
+	
+	
+}
+
+
+
+.menu_2 .spisok li {
+  float: left; 
+ 
+}
+
+.menu li > a {
+  text-decoration: none; 
+  color: #fff; 
+  transition: all 0.3s 0.01s;
+  padding: 0px 30px;
+  line-height: 24px; 
+  display: block;
+  border-right: 1px solid #B40404;
+  font-weight: bold;
+  font-family: Arial;
+  font-color: #1C1C1C;
+}
+
+.menu_2 li > a:hover {
+  background: #585858;
+}
+
+ h2 {
+  text-align: center;
+ }
+
+.foto, .name, .date, .comments {
+background: #F2F2F2;
+border: 2px solid #BDBDBD;
+box-sizing: border-box; 
+
+}
+
+.foto {
+  display: inline-block;
+  width: 10%;
+  height: 120px;
+  float: left;
+  margin: 0 0 0 20px; 
+
+}
+.foto img  {
+margin: auto;
+}
+
+.name, .date, .comments {
+padding-left: 10px;
+
+}
+
+.name {
+  display: inline-block;
+  width: 70%;
+  height: 30px;
+  line-height: 30px;
+  
+}
+
+.date {
+width: 15%;
+height: 30px;
+ display: inline-block;
+ margin: 0 20px 0 0;
+ line-height: 30px
+}
+
+.comments {
+width: 85%;
+height: 90px;
+display: inline-block;
+margin: 0 20px 0 0;
+padding-top: 10px; 
+}
+
+.zero {
+  width: 100%;
+  height: 30px;
+  
+}
+
+
+
+.footer {
+    background: #6E6E6E;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    box-sizing: border-box;
+ }
+

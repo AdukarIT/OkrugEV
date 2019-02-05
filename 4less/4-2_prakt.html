@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Otziv</title>
+  <meta charset="UTF-8">
+  <link href="4_prakt.css" rel="stylesheet">
+</head>
+ <body>
+
+  <form method="post" action="handler.php" name="form">
+     <h3>Форма отзыва на товар:</h3>
+
+      <div class="form_otz">
+        
+        <div class="name_1"><label for="nameF">Имя</label></div><!--
+       --><div class="pole_1"><input id="nameF" type="text" name="nickname" maxlength="50" size="20"></div>
+
+       <div class="name_1"><label for="emailF">E-mail</label></div><!--
+       --><div class="pole_1"><input id="emailF" type="text" name="email" maxlength="50" size="20"></div>
+        
+       <div class="name_3">Оцените работу</div><!--
+       --><div class="pole_3"><label>
+                  <input type="radio" name="star" checked>***** Звезд
+              </label><br>
+              <label>
+                  <input type="radio" name="star">****
+              </label><br>
+              <label>
+                  <input type="radio" name="star">***
+              </label><br>
+              <label>
+                  <input type="radio" name="star">**
+              </label><br>
+              <label>
+                  <input type="radio" name="star">*
+              </label></div>
+
+       <div class="name_3"><label for="commentF">Комментарий</div><!--
+       --><div class="pole_3"><textarea id="commentF" name="text" cols="35" rows="5"></textarea><br><input type="submit" value="Добавить комментарий"></div>
+
+      </div>
+
+          <div class="knopka">
+            <input type="submit" value="Отправить">
+         </div>
+
+  </form>
+ </body>
+</html>

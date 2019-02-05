@@ -3,63 +3,69 @@
 <head>
   <title>index</title>
   <meta charset="UTF-8">
-  <p><img src="images2.jpg" alt="Логотип" width="100%" height="100%"></p>
+  <link rel="stylesheet" href="5.1.1.css">
 </head>
  <body>
  	<form method="post" action="feed_5_1_2.html">
-   <table border="0" width="20%" cellspacing="0" cellpadding="4" align="center">
-     <tr>   	   
-   	   <td colspan="2" align="center"></td>
-     </tr>
-     <tr>   	  
-   	   <td colspan="2" align="center">Форма входа</td>
-     </tr>
-     <tr> 
-     <td align="right">E-mail</td>
-     <td><input type="text" name="email" maxlength="50" size="20"></td>
-    </tr>
-     <tr> 
-     <td align="right">Пароль</td>
-     <td><input type="password" name="password1" maxlength="50" size="20"></td>
-    </tr>
-    <tr>
-   	   <td colspan="2" align="center"><input type="submit" value="вход"></td>
-     </tr>
-       </table>
-       <p></p>
+  <div><img src="images2.jpg" alt="Логотип" width="100%" height="100%">
+  </div>
 
-<table border="0" width="20%" cellspacing="0" cellpadding="4" align="center">
-     <tr>
-   	   <td colspan="2" align="center">Форма регистрации</td>
-     </tr>
-     <tr> 
-     <td align="right">Имя</td>
-     <td><input type="text" name="name" maxlength="50" size="20"></td>
-    </tr>
-     <tr> 
-     <td align="right">E-mail</td>
-     <td><input type="text" name="email" maxlength="50" size="20"></td>
-    </tr>
-     <tr> 
-     <td align="right">Пароль</td>
-     <td><input type="password" name="password1" maxlength="50" size="20"></td>
-    </tr>
-    <tr> 
-     <td align="right">Подтверждение пароля</td>
-     <td><input type="password" name="password1" maxlength="50" size="20"></td>
-    </tr>
-		<tr>
-			<td colspan="2" align="center">
-				<label>
-					<input type="checkbox" checked>даю согласие с 
-					<a href="pid.docx" download>порядком обработки персональных данных</a>
-				</label>
-			</td>
-		</tr>
-   	   <tr>
-   	   	<td colspan="2" align="center"><input type="submit" value="зарегистрироваться"></td>
-       </tr>
-       </table>
+    <div class="form_all">
+       
+       <div class="formV-R"><h2>Форма входа</h2></div>
+
+          <div class="form_v">
+
+              <div class="left"><label for="mail-id">E-mail</label>
+              </div><!--
+              --><div class="right"><input id="mail-id" type="email" placeholder="@@@" name="mail">
+              </div><br>
+
+              <div class="left"><label for="parol-id">Пароль</label></div><!--
+              --><div class="right"><input id="parol-id" type="password" placeholder="11111" name="pin"> 
+              </div>
+
+              <div class="button">
+                  <input type="submit" value="Отправить">
+              </div>
+
+          </div>
+
+        <div class="formV-R"><h2>Форма регистрации</h2></div>
+
+          <div class="form_r">
+
+              <div class="left"><label for="name-id-R">Имя</label>
+              </div><!--
+              --><div class="right"><input id="name-id-R" type="text" placeholder="имя" name="name">
+              </div><br>
+
+              <div class="left"><label for="mail-id-R">E-mail</label>
+              </div><!--
+              --><div class="right"><input id="mail-id-R" type="email" placeholder="@@@" name="mail">
+              </div><br>
+
+              <div class="left"><label for="parole-id-R">Пароль</label></div><!--
+              --><div class="right"><input id="parole-id-R" type="password" placeholder="a11111a" name="pin"> 
+              </div>
+
+              <div class="left"><label for="parol-id-R">Подтверждение пароля</label></div><!--
+              --><div class="right"><input id="parol-id-R" type="password" placeholder="a11111a" name="pin"> 
+              </div>
+
+              <div class="formV-R">
+                <label>
+                    <input type="checkbox" checked>даю согласие с 
+                    <a href="pid.docx" download>порядком обработки</a> персональных данных
+                </label>
+              </div>
+
+              <div class="button">
+              <input type="submit" value="зарегистрироваться">
+              </div>    
+          </div>
+
+    </div>
 
   </form> 	
  </body>
