@@ -1,0 +1,36 @@
+.menu {
+  width: 90%;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.menu__category li {
+  display: inline;
+  padding: 20px;
+}
+
+.menu__category a {
+  padding-bottom: 36px;
+  transition: all 0.2s ease;
+  color: black;
+}
+
+.menu__category a:hover {
+  border-bottom: 6px solid #ec4e4e;
+  color: #ec4e4e;
+}
+
+.menu__social i {
+  padding: 10px;
+  transition: color 0.2s ease;
+  font-size: 18px;
+}
+
+.menu__social i:hover {
+  color: #ec4e4e;
+}
