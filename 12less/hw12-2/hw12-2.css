@@ -2,10 +2,10 @@ body, html {
 	margin: 0;
 }
 
-#pattern, svg, circle, .vk, .head, .head_left, .head_center, 
-.head_right, .menu_left, .content, .menu_right, ol, .dop_inf, .d3, .logo{
-	/*border: 2px solid red;*/
-}
+/*#pattern, svg, circle, .vk, .head, .head_left, .head_center, 
+.head_right, .menu_left, .content, .menu_right, ol, .dop_inf, .d3, .logo, .d4 {
+	border: 2px solid red;
+}*/
  .menu_left ol, .dop_inf, .logo {
  	width: 60%;
  	float: right;
@@ -46,7 +46,8 @@ width: 30%;
 
 }
 .logo {
-height: auto;
+box-sizing: border-box;
+height: 100%;
 margin-right: 5px;
 display: flex;
 justify-content: left;
@@ -64,6 +65,7 @@ font-size: 200%;
 .head_center {
 width: 40%;
 display: flex;
+
 
 }
 
@@ -88,6 +90,11 @@ display: table;
   width: auto;
   float: left;
   margin: 10px 0 10px 5px;
+
+}
+
+.d1 {
+
 }
 .d1 input {
   width: 200px;
@@ -101,6 +108,7 @@ display: table;
   outline: none;
   transition: .3s linear;
   color: #eee;
+
 }
 
 ::-webkit-input-placeholder {
@@ -298,38 +306,64 @@ width: 40%;
 
 
 .menu_right {
-float: right;
 width: 30%;
 box-sizing: border-box;
-position: relative;
-overflow: hidden;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.container {
+width: 60%;
+box-sizing: border-box;
+}
+
+.menu_right_navigation, .hot {
+width: 100%;
+float: left;
+box-sizing: border-box;
+background: #fff;
 }
 
 .menu_right_navigation {
-width: 60%;
-box-sizing: border-box;
-background: #fff;
-float: left;
 margin: 5px;
-
 }
 
 .hot {
-  width: 60%;
+display: flex;
+align-items: center;
+justify-content: center;
   height: 40px;
   padding: 10px;
-  float: left;
-  box-sizing: border-box;
   margin-top: 15px;
   margin-left: 5px;
-  background: #fff;
+
+  }
+
+
+.icon-plus, .icon-filter-1  {
+color: #fff; 
+float: right;
 }
 
-.icon-filter-1:before {
-  display: none;
-  font-family: adukar;
-
+.icon-plus:hover, .icon-filter-1:hover  {
+color: #000; 
 }
+
+
+/*.icon-filter-1, .icon-plus {
+float: right;
+opacity: 0;
+color: #000;
+}
+
+.icon-filter-1:hover, .icon-plus:hover  {
+float: right;
+ color: #000;
+ opacity: 1;
+}*/
+
+
 
 .menu_right_navigation ol,  {
 margin-left: 10px;
@@ -344,6 +378,7 @@ margin-top: 5px;
 .menu_right_navigation li:hover {
 list-style: none;
 margin-left: 0;
+
 }
 
 .menu_right_navigation a {
@@ -357,16 +392,17 @@ font-family: Arial;
 }
 
 .menu_right_navigation a:hover {
-  background: #eee;
-  margin-left: 0;
-  border-left: 2px solid #000;
-  padding-left: 5px;
+background: #c0c0c0;
+margin-left: 0;
+border-left: 2px solid #000;
+padding-left: 5px;
 text-decoration: none;
-display: block;
 color: #000;
 font-size: 15px;
 font-weight: bold;
 font-family: Arial;
+display: block;
+/*visibility: visible;*/
 }
 
 .hot a {
@@ -383,13 +419,7 @@ font-family: Arial;
   padding: 0;
 }
 
-.hot {
-display: flex;
-align-items: center;
-width: 60%;
-justify-content: center;
 
-}
 .icon_hot:before {
 content: "\f525";
 color: red; 
@@ -417,6 +447,21 @@ font-weight: bold;
 font-family: Arial;
 }
 
+.d4 {
+margin-left: auto;
+margin-top: auto;
+}
+
+.d4 svg {
+display: block;
+
+}
+
+.icon-user:before {
+content: "\e803";
+font-family: "adukar";
+color: #aaa;
+}
 
 
 .icon-thumbs-up:before {
@@ -443,7 +488,6 @@ bottom: 0;
 line-height: 40px;
 }
 .content_center {
-  
   justify-content: center;
   width: 95%;
   background: #fff;
@@ -490,10 +534,7 @@ font-weight: bold;
 font-size: 12px;
 
 }
-.paragraph_photo {
-  width: 90%;
-  margin: 0 auto;
-}
+
 .headline {
   margin-left: 10px;
   padding-top: 10px; 
@@ -511,42 +552,7 @@ font-size: 12px;
   justify-content: center;
 }
 
-/*.icon-user:before {
-content: "\e803";
-font-family: "adukar";
-color: #aaa;
-}
-.d4 svg {
-flex-direction: column;
-}
-*/
-.d4 {
-  width: 40px;
-  display: inline-block;
-  bottom: 0;
-  position: absolute;
-  margin-left: 60px;
+b {
+  font-size: 12px;
 
 }
-
-/*.d4 {
-  display: flex;
-  flex-direction: column;
-   /*float: right;*/
-   width: 20%;
-   /*align-items: flex-start;*/
-   position: absolute;
-   bottom: 0;
-}*/
-
-.icon-user:before {
-content: "\e803";
-font-family: "adukar";
-color: #aaa;
-
-}
-.d4 svg {
-flex-direction: column;
-}
-
-

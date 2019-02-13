@@ -35,5 +35,7 @@ https://jsfiddle.net/okrughelen/wvpdrhnc/35/ --10 урок задание 10.3<b
 https://jsfiddle.net/okrughelen/z9kdtrhu/89/ --10 урок задание 10.4<br>
 
 https://jsfiddle.net/okrughelen/wvpdrhnc/25/ --12 урок задание 12.1<br>
+https://jsfiddle.net/okrughelen/z9kdtrhu/96/ --12 урок задание 12.2<br>
+
 
 https://jsfiddle.net/okrughelen/wvpdrhnc/77/ --13 урок практика 1<br>
