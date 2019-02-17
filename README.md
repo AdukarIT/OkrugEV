@@ -39,3 +39,8 @@ https://jsfiddle.net/okrughelen/z9kdtrhu/96/ --12 урок задание 12.2<b
 
 
 https://jsfiddle.net/okrughelen/wvpdrhnc/77/ --13 урок практика 1<br>
+https://jsfiddle.net/okrughelen/z9kdtrhu/115/ --13 урок практика 2<br>
+
+https://jsfiddle.net/okrughelen/z9kdtrhu/112/ --14 урок задание 1<br>
+https://jsfiddle.net/okrughelen/z9kdtrhu/114/ --14 урок задание 2<br>
+https://jsfiddle.net/okrughelen/z9kdtrhu/109/ --14 урок задание 3<br>

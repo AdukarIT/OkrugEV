@@ -1,0 +1,43 @@
+.box {
+	width: 40%;
+    height: 300px;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    line-height: bottom;
+    align-items: flex-end;
+}
+
+.animated:hover {
+ animation: scorpio 0.3s steps(7) infinite alternate running;
+ }
+.animated-2:hover {
+animation: scorpioY 0.3s steps(7) infinite alternate running;  
+}
+
+.animated {
+width: 66px;
+height: 135px;
+background: url("http://www.mpbox.ru/assets/images/without-flash/gamedev/sheet.jpg");
+animation: scorpio 0.3s steps(7) infinite paused;
+animation-direction: alternate;}
+
+@keyframes scorpio {
+from { background-position: 0px; }
+to { background-position: -462px; }
+}
+
+.animated-2 {
+width: 66px;
+height: 135px;
+background: url("https://cdn1.savepice.ru/uploads/2019/2/17/67ed4641d4d6d5277a55540e1e7b8db5-full.png");
+animation: scorpioY 0.4s steps(7) infinite paused;
+animation-direction: alternate;
+}
+
+@keyframes scorpioY {
+from { background-position: 0px; }
+to { background-position: -462px; }
+}
